@@ -4,7 +4,7 @@ from rest_framework import serializers
 class Mantenimiento_Tipo_Serializer(serializers.ModelSerializer):
     class Meta:
         model = Mantenimiento_Tipo
-        fields = ('id', 'nombre')
+        fields = ('id', 'nombre','descripcion')
 
 class Mantenimiento_Vehiculo_Serializer(serializers.ModelSerializer):
     class Meta:
